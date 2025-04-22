@@ -7,9 +7,9 @@
   makeWrapper,
   rsync,
 }:
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "revolt-desktop";
-  version = "0.7.4"; # Change this once you know which rev you're building.
+  version = "1.0.8";
 
   src = fetchFromGitHub {
     owner = "revoltchat";
@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with lib; {
-    description = "Unofficial Revolt desktop client — now with more reproducibility.";
+    description = "Unofficial Revolt desktop client.";
     homepage = "https://github.com/revoltchat/desktop";
     license = licenses.agpl3Plus;
     maintainers = [];
