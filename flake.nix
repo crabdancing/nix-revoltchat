@@ -1,5 +1,5 @@
 {
-  description = "Revolt Desktop — but now actually works on Nix.";
+  description = "Revolt Desktop";
 
   inputs = {
     flake-parts.url = "github:hercules-ci/flake-parts";

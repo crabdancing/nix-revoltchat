@@ -1,9 +1,10 @@
-Dumping hundreds of megabytes of garbage from the JS ecosystem is as easy as 1, 2, 3!
+Dumping hundreds of megabytes of garbage from the JS ecosystem into your repo is as easy as 1, 2, 3!
 
 1) Cloning the upstream repo:
 
 ```
 git clone https://github.com/revoltchat/desktop revolt-desktop
+cd revolt-desktop
 ```
 
 2) Yarn shits in the `.yarn/cache` directory:
