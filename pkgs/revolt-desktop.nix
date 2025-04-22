@@ -49,7 +49,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with lib; {
-    description = "Unofficial Revolt desktop client.";
+    description = "Official Revolt desktop client.";
     homepage = "https://github.com/revoltchat/desktop";
     license = licenses.agpl3Plus;
     maintainers = [];
