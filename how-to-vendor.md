@@ -15,7 +15,7 @@ YARN_ENABLE_IMMUTABLE_INSTALLS=true nix-shell -p yarn --run 'yarn install --immu
 
 💩
 
-3) We harvest its ecosystem feces, and petrify it. Note that you must define `$DST_DIR` as your destination!
+3) We harvest its ecosystem feces, and petrify it. Note that you must define `$DST_DIR` as your destination, i.e., _this_ repo. (which has a `/.yarn/cache` where `/` is our repo root.)
 
 ```
 rip $DST_DIR/.yarn/cache
